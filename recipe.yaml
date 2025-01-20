@@ -1,0 +1,10 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: rime-russkij
+  description: >-
+    自用俄語羅馬字方案
+
+install_files: >-
+  lua/russkij/*.lua
+  russkij*.yaml
