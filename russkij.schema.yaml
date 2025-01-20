@@ -1,0 +1,48 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: russkij
+  name: 俄語羅馬字改
+  version: '0.2'
+  author:
+    - kuroame
+    
+engine:
+  processors:
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - lua_processor@*russkij/auto_space
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: 'ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba'
+  delimiter: ' '
+  auto_select: true
+
+translator:
+  dictionary: russkij
+  enable_sentence: false
+  enable_user_dict: false
+  comment_format:
+    - xform/^~//
+
+key_binder:
+  import_preset: default
+
+style:
+  # Inline preedit
+  inline_preedit: true
+  inline_candidate: true
+  preedit_type: preview
+
+  # Hind the candidate window
+  alpha: 0.0000000001
+  margin_y: -1
