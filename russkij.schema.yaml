@@ -10,6 +10,7 @@ schema:
     
 engine:
   processors:
+    - ascii_composer
     - key_binder
     - speller
     - selector
