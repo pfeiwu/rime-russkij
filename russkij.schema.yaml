@@ -38,12 +38,12 @@ translator:
 key_binder:
   import_preset: default
 
-style:
-  # Inline preedit
-  inline_preedit: true
-  inline_candidate: true
-  preedit_type: preview
+# style:
+#   # Inline preedit
+#   inline_preedit: true
+#   inline_candidate: true
+#   preedit_type: preview
 
-  # Hind the candidate window
-  alpha: 0.0000000001
-  margin_y: -1
+#   # Hide the candidate window
+#   alpha: 0.0000000001
+#   margin_y: -1
