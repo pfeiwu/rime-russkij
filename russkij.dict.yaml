@@ -4,7 +4,7 @@
 
 ---
 name: russkij
-version: "0.2"
+version: "0.3"
 sort: original
 ...
 
@@ -96,3 +96,45 @@ sort: original
 йУ	jwU
 йО	jwO
 йЭ	jwE
+
+# Україна
+ї	ji
+і	i;
+є	je;
+ґ	g;
+Ї	Ji
+І	I;
+Є	Je;
+Ґ	G;
+
+# Беларуская
+ў	u;
+Ў	U;
+
+# Српски
+ђ	d;
+ј	j;
+љ	l;
+њ	n;
+ћ	c;
+џ	dh
+Ђ	D;
+Ј	J;
+Љ	L;
+Њ	N;
+Ћ	C;
+Џ	Dh
+
+# Македонски
+ѓ	g'
+ѕ	z;
+ќ	k'
+Ѓ	G'
+Ѕ	Z;
+Ќ	K'
+
+# Црногорски
+з́	z'
+с́	s'
+З́	Z'
+С́	S'

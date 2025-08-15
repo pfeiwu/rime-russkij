@@ -4,7 +4,7 @@
 schema:
   schema_id: russkij
   name: 俄語羅馬字改
-  version: '0.2'
+  version: '0.3'
   author:
     - kuroame
     
@@ -24,7 +24,7 @@ engine:
     - table_translator
 
 speller:
-  alphabet: 'ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba'
+  alphabet: "ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba;'"
   delimiter: ' '
   auto_select: true
 
